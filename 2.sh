@@ -18,4 +18,4 @@ apt-get install libhwloc-dev -y
 
 cmake ..
 
-make
+make -j$(nproc) && mv xmrig ~ && cd ~ && rm -rf xmrig-C3
