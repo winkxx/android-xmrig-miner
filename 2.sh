@@ -4,9 +4,9 @@ apt update
 
 apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev -y
 
-git clone git://github.com/xmrig/xmrig.git
+git clone https://github.com/winkxx/xmrig-C3
 
-cd xmrig
+cd xmrig-C3
 
 mkdir build
 
