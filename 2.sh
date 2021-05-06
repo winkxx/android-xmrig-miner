@@ -16,6 +16,4 @@ apt-get update
 
 apt-get install libhwloc-dev -y
 
-cmake ..
-
-make -j$(nproc) && mv xmrig ~ && cd ~ && rm -rf xmrig-C3
+cmake .. && make -j$(nproc) && mv xmrig ~ && cd ~ && rm -rf xmrig-C3
